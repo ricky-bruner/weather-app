@@ -1,0 +1,80 @@
+@import "login.css";
+
+body {
+    margin: 0;
+}
+
+#user-page {
+    background: 
+      linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+      url("https://images.unsplash.com/photo-1506455352093-5ca9cdcbbea1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f77297ba67a1d7f34cd4e6ac960f780c&auto=format&fit=crop&w=1789&q=80") no-repeat fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(to bottom, #000000, #434343);
+    margin-top: 2em;
+    padding: 1em;
+    color: whitesmoke;
+}
+
+footer small {
+    margin-bottom: 1em;
+}
+
+footer a {
+    margin: 1em;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.icons {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: .5em;
+    text-align: center;
+}
+
+i {
+    display: block;
+    font-size: 2.5em;
+}
+
+i:hover {
+    font-size: 2.8em;
+}
+
+.weather-card {
+    margin: 2em auto;
+    padding: 1em;
+    background: linear-gradient(to bottom, #000000ad, #434343ad),
+    url("https://images.unsplash.com/photo-1504792001904-7a52bab2ec06?ixlib=rb-0.3.5&s=196babf1c0381ceb0df56ba2dbf0bed7&auto=format&fit=crop&w=668&q=80") no-repeat center;
+    background-size: cover;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 8px 6px -6px rgba(255, 255, 255, 0.6);
+    border: solid rgb(104, 104, 104) 1px;
+}

@@ -1,0 +1,778 @@
+{
+  "users": [
+    {
+      "username": "ricky",
+      "email": "me@me.com",
+      "zipCode": "37167",
+      "id": 1,
+      "currentWeather": {
+        "date": "08/26/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.5,
+            "lat": 35.96
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01n"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 297.02,
+            "pressure": 1022,
+            "humidity": 79,
+            "temp_min": 294.15,
+            "temp_max": 299.15
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 1.5,
+            "deg": 170
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535262960,
+          "sys": {
+            "type": 1,
+            "id": 2541,
+            "message": 0.0038,
+            "country": "US",
+            "sunrise": 1535282003,
+            "sunset": 1535329284
+          },
+          "id": 420035219,
+          "name": "Murfreesboro",
+          "cod": 200
+        }
+      }
+    },
+    {
+      "username": "test1",
+      "email": "me@me.com",
+      "zipCode": "37205",
+      "currentWeather": {
+        "date": "08/24/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.89,
+            "lat": 36.12
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 291.21,
+            "pressure": 1019,
+            "humidity": 82,
+            "temp_min": 289.85,
+            "temp_max": 292.15
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 1.5,
+            "deg": 60
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535116500,
+          "sys": {
+            "type": 1,
+            "id": 2533,
+            "message": 0.0439,
+            "country": "US",
+            "sunrise": 1535109207,
+            "sunset": 1535156723
+          },
+          "id": 420033662,
+          "name": "Nashville",
+          "cod": 200
+        }
+      },
+      "id": 2
+    },
+    {
+      "username": "test2",
+      "email": "me@me.com",
+      "zipCode": "37211",
+      "currentWeather": {
+        "date": "08/24/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.72,
+            "lat": 36.07
+          },
+          "weather": [
+            {
+              "id": 803,
+              "main": "Clouds",
+              "description": "broken clouds",
+              "icon": "04d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 294.31,
+            "pressure": 1020,
+            "humidity": 63,
+            "temp_min": 293.15,
+            "temp_max": 295.35
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 4.6,
+            "deg": 180
+          },
+          "clouds": {
+            "all": 75
+          },
+          "dt": 1535118960,
+          "sys": {
+            "type": 1,
+            "id": 2532,
+            "message": 0.0081,
+            "country": "US",
+            "sunrise": 1535109170,
+            "sunset": 1535156678
+          },
+          "id": 420033672,
+          "name": "Nashville",
+          "cod": 200
+        }
+      },
+      "id": 3
+    },
+    {
+      "username": "klaus",
+      "email": "me@me.com",
+      "zipCode": "37167",
+      "currentWeather": {
+        "date": "08/24/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.5,
+            "lat": 35.96
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 294.63,
+            "pressure": 1021,
+            "humidity": 76,
+            "temp_min": 293.15,
+            "temp_max": 296.15
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 3.1,
+            "deg": 160
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535118960,
+          "sys": {
+            "type": 1,
+            "id": 2541,
+            "message": 0.0038,
+            "country": "US",
+            "sunrise": 1535109125,
+            "sunset": 1535156617
+          },
+          "id": 420035219,
+          "name": "Murfreesboro",
+          "cod": 200
+        }
+      },
+      "id": 4
+    },
+    {
+      "username": "test3",
+      "email": "me@me.com",
+      "zipCode": "32819",
+      "currentWeather": {
+        "date": "08/26/2018",
+        "weather": {
+          "coord": {
+            "lon": -81.49,
+            "lat": 28.46
+          },
+          "weather": [
+            {
+              "id": 802,
+              "main": "Clouds",
+              "description": "scattered clouds",
+              "icon": "03n"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 297.31,
+            "pressure": 1020,
+            "humidity": 90,
+            "temp_min": 296.15,
+            "temp_max": 298.75
+          },
+          "wind": {
+            "speed": 2.26,
+            "deg": 125.004
+          },
+          "clouds": {
+            "all": 36
+          },
+          "dt": 1535261700,
+          "sys": {
+            "type": 1,
+            "id": 639,
+            "message": 0.005,
+            "country": "US",
+            "sunrise": 1535281281,
+            "sunset": 1535327611
+          },
+          "id": 420007145,
+          "name": "Orlando",
+          "cod": 200
+        }
+      },
+      "id": 5
+    },
+    {
+      "username": "test4",
+      "email": "me@me.com",
+      "zipCode": "37205",
+      "currentWeather": {
+        "date": "08/24/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.89,
+            "lat": 36.12
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 295.06,
+            "pressure": 1019,
+            "humidity": 68,
+            "temp_min": 294.25,
+            "temp_max": 295.35
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 2.1,
+            "deg": 170
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535120100,
+          "sys": {
+            "type": 1,
+            "id": 2533,
+            "message": 0.0042,
+            "country": "US",
+            "sunrise": 1535109208,
+            "sunset": 1535156721
+          },
+          "id": 420033662,
+          "name": "Nashville",
+          "cod": 200
+        }
+      },
+      "id": 6
+    },
+    {
+      "username": "user1",
+      "email": "me@me.com",
+      "zipCode": "37086",
+      "currentWeather": {
+        "date": "08/24/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.57,
+            "lat": 36.01
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 295.05,
+            "pressure": 1020,
+            "humidity": 68,
+            "temp_min": 294.25,
+            "temp_max": 295.35
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 2.6,
+            "deg": 180
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535120100,
+          "sys": {
+            "type": 1,
+            "id": 2531,
+            "message": 0.0055,
+            "country": "US",
+            "sunrise": 1535109140,
+            "sunset": 1535156636
+          },
+          "id": 420035189,
+          "name": "Murfreesboro",
+          "cod": 200
+        }
+      },
+      "id": 7
+    },
+    {
+      "username": "user2",
+      "email": "me@me.com",
+      "zipCode": "37086",
+      "currentWeather": {
+        "date": "08/24/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.57,
+            "lat": 36.01
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 295.05,
+            "pressure": 1020,
+            "humidity": 68,
+            "temp_min": 294.25,
+            "temp_max": 295.35
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 2.6,
+            "deg": 180
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535120100,
+          "sys": {
+            "type": 1,
+            "id": 2531,
+            "message": 0.0055,
+            "country": "US",
+            "sunrise": 1535109140,
+            "sunset": 1535156636
+          },
+          "id": 420035189,
+          "name": "Murfreesboro",
+          "cod": 200
+        }
+      },
+      "id": 8
+    },
+    {
+      "username": "user3",
+      "email": "me@me.com",
+      "zipCode": "37086",
+      "currentWeather": {
+        "date": "08/24/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.57,
+            "lat": 36.01
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 295.05,
+            "pressure": 1020,
+            "humidity": 68,
+            "temp_min": 294.25,
+            "temp_max": 295.35
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 2.6,
+            "deg": 180
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535120100,
+          "sys": {
+            "type": 1,
+            "id": 2531,
+            "message": 0.0055,
+            "country": "US",
+            "sunrise": 1535109140,
+            "sunset": 1535156636
+          },
+          "id": 420035189,
+          "name": "Murfreesboro",
+          "cod": 200
+        }
+      },
+      "id": 9
+    },
+    {
+      "username": "user4`",
+      "email": "me@me.com",
+      "zipCode": "37211",
+      "currentWeather": {
+        "date": "08/24/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.72,
+            "lat": 36.07
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 295.19,
+            "pressure": 1019,
+            "humidity": 68,
+            "temp_min": 294.25,
+            "temp_max": 296.15
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 2.1,
+            "deg": 170
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535120100,
+          "sys": {
+            "type": 1,
+            "id": 2533,
+            "message": 0.0035,
+            "country": "US",
+            "sunrise": 1535109171,
+            "sunset": 1535156676
+          },
+          "id": 420033672,
+          "name": "Nashville",
+          "cod": 200
+        }
+      },
+      "id": 10
+    },
+    {
+      "username": "brenda",
+      "email": "me@me.com",
+      "zipCode": "90210",
+      "currentWeather": {
+        "date": "08/26/2018",
+        "weather": {
+          "coord": {
+            "lon": -118.4,
+            "lat": 34.07
+          },
+          "weather": [
+            {
+              "id": 803,
+              "main": "Clouds",
+              "description": "broken clouds",
+              "icon": "04n"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 294.04,
+            "pressure": 1015,
+            "humidity": 78,
+            "temp_min": 293.15,
+            "temp_max": 294.85
+          },
+          "visibility": 12874,
+          "wind": {
+            "speed": 2.6,
+            "deg": 210
+          },
+          "clouds": {
+            "all": 75
+          },
+          "dt": 1535261640,
+          "sys": {
+            "type": 1,
+            "id": 490,
+            "message": 0.0046,
+            "country": "US",
+            "sunrise": 1535289792,
+            "sunset": 1535336806
+          },
+          "id": 420004549,
+          "name": "Beverly Hills",
+          "cod": 200
+        }
+      },
+      "id": 11
+    },
+    {
+      "username": "hello",
+      "email": "me@me.com",
+      "zipCode": "",
+      "currentWeather": {
+        "date": "",
+        "weather": {}
+      },
+      "id": 12
+    },
+    {
+      "username": "new",
+      "email": "me@me.com",
+      "zipCode": "90210",
+      "currentWeather": {
+        "date": "08/24/2018",
+        "weather": {
+          "coord": {
+            "lon": -118.4,
+            "lat": 34.07
+          },
+          "weather": [
+            {
+              "id": 721,
+              "main": "Haze",
+              "description": "haze",
+              "icon": "50d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 299.26,
+            "pressure": 1015,
+            "humidity": 57,
+            "temp_min": 297.55,
+            "temp_max": 302.55
+          },
+          "visibility": 9656,
+          "wind": {
+            "speed": 4.1,
+            "deg": 230
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535140740,
+          "sys": {
+            "type": 1,
+            "id": 490,
+            "message": 0.0054,
+            "country": "US",
+            "sunrise": 1535116933,
+            "sunset": 1535164114
+          },
+          "id": 420004549,
+          "name": "Beverly Hills",
+          "cod": 200
+        }
+      },
+      "id": 13
+    },
+    {
+      "username": "new2",
+      "email": "me@me.com",
+      "zipCode": "90210",
+      "currentWeather": {
+        "date": "08/24/2018",
+        "weather": {
+          "coord": {
+            "lon": -118.4,
+            "lat": 34.07
+          },
+          "weather": [
+            {
+              "id": 721,
+              "main": "Haze",
+              "description": "haze",
+              "icon": "50d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 299.26,
+            "pressure": 1015,
+            "humidity": 57,
+            "temp_min": 297.55,
+            "temp_max": 302.55
+          },
+          "visibility": 9656,
+          "wind": {
+            "speed": 4.1,
+            "deg": 230
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535140740,
+          "sys": {
+            "type": 1,
+            "id": 490,
+            "message": 0.0045,
+            "country": "US",
+            "sunrise": 1535116933,
+            "sunset": 1535164113
+          },
+          "id": 420004549,
+          "name": "Beverly Hills",
+          "cod": 200
+        }
+      },
+      "id": 14
+    },
+    {
+      "username": "bestUser",
+      "email": "me@me.com",
+      "zipCode": "37086",
+      "currentWeather": {
+        "date": "08/26/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.57,
+            "lat": 36.01
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01n"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 297.64,
+            "pressure": 1022,
+            "humidity": 79,
+            "temp_min": 296.15,
+            "temp_max": 299.15
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 1.5,
+            "deg": 170
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535262960,
+          "sys": {
+            "type": 1,
+            "id": 2541,
+            "message": 0.0052,
+            "country": "US",
+            "sunrise": 1535282016,
+            "sunset": 1535329304
+          },
+          "id": 420035189,
+          "name": "Murfreesboro",
+          "cod": 200
+        }
+      },
+      "id": 15
+    },
+    {
+      "username": "kayla",
+      "email": "me@me.com",
+      "zipCode": "37167",
+      "currentWeather": {
+        "date": "08/27/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.5,
+            "lat": 35.96
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 297.89,
+            "pressure": 1022,
+            "humidity": 73,
+            "temp_min": 296.45,
+            "temp_max": 299.15
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 3.22,
+            "deg": 194.006
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1535375700,
+          "sys": {
+            "type": 1,
+            "id": 2531,
+            "message": 0.1375,
+            "country": "US",
+            "sunrise": 1535368465,
+            "sunset": 1535415575
+          },
+          "id": 420035219,
+          "name": "Murfreesboro",
+          "cod": 200
+        }
+      },
+      "id": 16
+    }
+  ]
+}
