@@ -4,6 +4,8 @@
 
 */
 
+const remoteURL = "http://localhost:8088";
+
 const dataManager = Object.create(null, {
     getWeather: {
         value: (zipCode) => {
@@ -13,13 +15,13 @@ const dataManager = Object.create(null, {
     },
     getUser: {
         value: (username, email) => {
-            return fetch(`http://localhost:8088/users?email=${email}&username=${username}`)
+            return fetch(`${remoteURL}/users?email=${email}&username=${username}`)
             .then(res => res.json())
         }
     },
     saveUser: {
         value: (user) => {
-            return fetch(`http://localhost:8088/users`, {
+            return fetch(`${remoteURL}/users`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -30,7 +32,7 @@ const dataManager = Object.create(null, {
     },
     editUserZip: {
         value: (userId, zipCode) => {
-            return fetch(`http://localhost:8088/users/${userId}`, {
+            return fetch(`${remoteURL}/users/${userId}`, {
                 method: "PATCH",
                 headers: {
                     "Content-Type": "application/json"
@@ -41,7 +43,7 @@ const dataManager = Object.create(null, {
     },
     editUserWeather: {
         value: (userId, object) => {
-            return fetch(`http://localhost:8088/users/${userId}`, {
+            return fetch(`${remoteURL}/users/${userId}`, {
                 method: "PATCH",
                 headers: {
                     "Content-Type": "application/json"
