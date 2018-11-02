@@ -6,7 +6,7 @@
       "zipCode": "37167",
       "id": 1,
       "currentWeather": {
-        "date": "08/26/2018",
+        "date": "11/01/2018",
         "weather": {
           "coord": {
             "lon": -86.5,
@@ -14,36 +14,36 @@
           },
           "weather": [
             {
-              "id": 800,
-              "main": "Clear",
-              "description": "clear sky",
-              "icon": "01n"
+              "id": 804,
+              "main": "Clouds",
+              "description": "overcast clouds",
+              "icon": "04n"
             }
           ],
           "base": "stations",
           "main": {
-            "temp": 297.02,
-            "pressure": 1022,
+            "temp": 285.42,
+            "pressure": 1009,
             "humidity": 79,
-            "temp_min": 294.15,
-            "temp_max": 299.15
+            "temp_min": 284.15,
+            "temp_max": 286.15
           },
           "visibility": 16093,
           "wind": {
-            "speed": 1.5,
-            "deg": 170
+            "speed": 5.1,
+            "deg": 280
           },
           "clouds": {
-            "all": 1
+            "all": 90
           },
-          "dt": 1535262960,
+          "dt": 1541127360,
           "sys": {
             "type": 1,
             "id": 2541,
-            "message": 0.0038,
+            "message": 0.004,
             "country": "US",
-            "sunrise": 1535282003,
-            "sunset": 1535329284
+            "sunrise": 1541160574,
+            "sunset": 1541198941
           },
           "id": 420035219,
           "name": "Murfreesboro",
@@ -773,6 +773,57 @@
         }
       },
       "id": 16
+    },
+    {
+      "username": "kayla24",
+      "email": "me@me.com",
+      "zipCode": "37167",
+      "currentWeather": {
+        "date": "11/01/2018",
+        "weather": {
+          "coord": {
+            "lon": -86.5,
+            "lat": 35.96
+          },
+          "weather": [
+            {
+              "id": 804,
+              "main": "Clouds",
+              "description": "overcast clouds",
+              "icon": "04n"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 285.42,
+            "pressure": 1009,
+            "humidity": 79,
+            "temp_min": 284.15,
+            "temp_max": 286.15
+          },
+          "visibility": 16093,
+          "wind": {
+            "speed": 5.1,
+            "deg": 280
+          },
+          "clouds": {
+            "all": 90
+          },
+          "dt": 1541127360,
+          "sys": {
+            "type": 1,
+            "id": 2541,
+            "message": 0.0075,
+            "country": "US",
+            "sunrise": 1541160575,
+            "sunset": 1541198940
+          },
+          "id": 420035219,
+          "name": "Murfreesboro",
+          "cod": 200
+        }
+      },
+      "id": 17
     }
   ]
 }

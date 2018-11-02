@@ -1,10 +1,13 @@
 
 
-function expandDOM(){
+function expandDOM(user){
     document.querySelector("#user-page").innerHTML = 
         `<header>
-            <nav>
-                <button id="logout-btn">Logout</button>
+            <nav class="navbar">
+                <p>Welcome, ${user.username}</p>
+                <div>
+                    <button id="logout-btn">Logout</button>
+                </div>
             </nav>
         </header>
         <main>

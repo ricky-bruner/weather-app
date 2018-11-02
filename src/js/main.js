@@ -22,7 +22,7 @@ if(sessionStorage.getItem("user") === null){
     loginAnimation();
 } else {
     let user = JSON.parse(sessionStorage.getItem("user"));
-    expandDOM();
+    expandDOM(user);
     checkData(user);
 }
 
@@ -45,7 +45,7 @@ document.querySelector("#wrapper").addEventListener("click", (e) => {
                 if(user.length){
                     sessionStorage.setItem("user", JSON.stringify(user[0]));
                     document.querySelector("#login-container").innerHTML = "";
-                    expandDOM();
+                    expandDOM(user);
                     let currentUser = JSON.parse(sessionStorage.getItem("user"))
                     checkData(currentUser);
                 } else {
